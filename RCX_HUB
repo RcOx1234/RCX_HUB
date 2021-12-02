@@ -1,0 +1,62 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("GameHub RCX", "Ocean")
+
+local GameHub = Window:NewTab("Game Hub")
+local Configuracion = Window:NewTab("Settings")
+local Section1 = GameHub:NewSection("GameHub")
+local Section2 = Configuracion:NewSection("Jugador")
+local Section3 = Configuracion:NewSection("RCX Config")
+local Section4 = GameHub:NewSection("Misc")
+
+
+Section1:NewButton("Prision Life Fe ADMIN", "Ejecuta el mejor script de admin de Prision Life", function()
+   	loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+Section1:NewButton("Build A Boat For Treasure", "Build A Boat for Treasure Script", function()
+   	loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT'))()
+end)
+
+Section1:NewButton("Anti AFK", "Deja el tiempo que quieras tu ordenador el juego seguira", function()
+   	loadstring(game:HttpGet('https://pastebin.com/raw/G8q5ZL4e'))()
+end)
+
+Section1:NewButton("Blox Fruits", "Un script de Blox fruits xd", function()
+   	getgenv().Color = Color3.fromRGB(0, 128, 255)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+
+Section3:NewKeybind("Letra Para mostrar el UI", "Presiona la letra seleccionada para Mostrar/Ocultar", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+Section2:NewSlider("WalkSpeed", "Esto te ayudara a Correr mas o menos", 100, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Section2:NewSlider("JumpPower", "Esto te ayudara a Saltar mas o menos", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Section4:NewButton("Btools", "Obtendras unas herramientas muy utiles", function()
+   	a = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+		a.BinType = 2
+		b = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+		b.BinType = 3
+		c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+		c.BinType = 4
+end)
+
+Section4:NewButton("Unlock all", "Hace que puedas destruir absolutamente Todo con los Btools", function()
+   	function unlockEverything(a)
+	for n,o in pairs(a:GetChildren())do
+	if(o:IsA("BasePart"))then o.Locked = false end
+	unlockEverything(o)
+	end
+end
+
+unlockEverything(Workspace)
+end)
+
+Section3:NewLabel("Hecho por ObamaRCX")
+
+
