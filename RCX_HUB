@@ -1,13 +1,23 @@
+--Library
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("GameHub RCX", "Ocean")
 
-local GameHub = Window:NewTab("Game Hub")
-local Configuracion = Window:NewTab("Settings")
+--Tabs
+
+local GameHub = Window:NewTab("Inicio")
+local SquidGame = Window:NewTab("Squid Game")
+local Configuracion = Window:NewTab("Configuracion")
+
+--Sections
+
 local Section1 = GameHub:NewSection("GameHub")
 local Section2 = Configuracion:NewSection("Jugador")
 local Section3 = Configuracion:NewSection("RCX Config")
 local Section4 = GameHub:NewSection("Misc")
+local Section5 = SquidGame:NewSection("Teleports")
+local Section6 = SquidGame:NewSection("Squid Game UI")
 
+--Buttons ETC...
 
 Section1:NewButton("Prision Life Fe ADMIN", "Ejecuta el mejor script de admin de Prision Life", function()
    	loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
@@ -17,13 +27,21 @@ Section1:NewButton("Build A Boat For Treasure", "Build A Boat for Treasure Scrip
    	loadstring(game:HttpGet('https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT'))()
 end)
 
+Section1:NewButton("Ninja Legends", "Reaper X el mejor script de ninja legends", function()
+   	loadstring(game:HttpGet("https://raw.githubusercontent.com/HydraVirgo/ninjalegendsfreegui/main/obfusc", true))()
+end)
+
 Section1:NewButton("Anti AFK", "Deja el tiempo que quieras tu ordenador el juego seguira", function()
    	loadstring(game:HttpGet('https://pastebin.com/raw/G8q5ZL4e'))()
 end)
 
 Section1:NewButton("Blox Fruits", "Un script de Blox fruits xd", function()
    	getgenv().Color = Color3.fromRGB(0, 128, 255)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+
+Section1:NewButton("Hexa Game", "El unico y mejor script de Hexa Game", function()
+   	loadstring(game:HttpGet('https://pastebin.com/raw/s8sQMnFC'))()
 end)
 
 Section3:NewKeybind("Letra Para mostrar el UI", "Presiona la letra seleccionada para Mostrar/Ocultar", Enum.KeyCode.F, function()
@@ -55,6 +73,22 @@ Section4:NewButton("Unlock all", "Hace que puedas destruir absolutamente Todo co
 end
 
 unlockEverything(Workspace)
+end)
+
+Section5:NewButton("Tp Green Light Reed Light", "Te hace tp hasta el final del juego", function()
+   	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.2247314, 5.33794641, -633.497681, 0.148700446, 1.02263208e-07, -0.988882303, 3.93857498e-08, 1, 1.09335446e-07, 0.988882303, -5.52060975e-08, 0.148700446)
+end)
+
+Section5:NewButton("Noche, Zona Segura", "Te lleva donde nadie te pueda matar", function()
+   	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27.2138462, -100.892342, -347.631897, 0.884209692, 0.00626612222, 0.467048198, -0.0128041785, 0.999859393, 0.0108261751, -0.466914713, -0.0155527731, 0.884165585)
+end)
+
+Section5:NewButton("Vidrios, TP", "Te lleva al final del juego", function()
+   	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-346.346375, -125.765137, -199.003601, 0.374254376, -0.0164241679, 0.927180648, -0.00985085685, 0.999716282, 0.021685347, -0.92727381, -0.0172493607, 0.373986393)
+end)
+
+Section6:NewButton("DomainX", "Ejecuta otra UI muy potente", function()
+   	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Urbanstorms/DomainX/main/Squid%20Game.lua'),true))()
 end)
 
 Section3:NewLabel("Hecho por ObamaRCX")
