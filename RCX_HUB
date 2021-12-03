@@ -6,6 +6,7 @@ local Window = Library.CreateLib("GameHub RCX", "Ocean")
 
 local GameHub = Window:NewTab("Inicio")
 local SquidGame = Window:NewTab("Squid Game")
+local BP = Window:NewTab("Breaking Point")
 local Configuracion = Window:NewTab("Configuracion")
 
 --Sections
@@ -16,6 +17,8 @@ local Section3 = Configuracion:NewSection("RCX Config")
 local Section4 = GameHub:NewSection("Misc")
 local Section5 = SquidGame:NewSection("Teleports")
 local Section6 = SquidGame:NewSection("Squid Game UI")
+local Section7 = BP:NewSection("Teleports")
+local Section8 = BP:NewSection("Misc")
 
 --Buttons ETC...
 
@@ -42,6 +45,11 @@ end)
 
 Section1:NewButton("Hexa Game", "El unico y mejor script de Hexa Game", function()
    	loadstring(game:HttpGet('https://pastebin.com/raw/s8sQMnFC'))()
+end)
+
+Section1:NewButton("Anime Fighters", "Presiona el boton para ejecutar", function()
+   	local script = game:HttpGet("https://raw.githubusercontent.com/DevPolarhub/ScriptPacks/main/AnimeFighterSimulater")
+loadstring(script)()
 end)
 
 Section3:NewKeybind("Letra Para mostrar el UI", "Presiona la letra seleccionada para Mostrar/Ocultar", Enum.KeyCode.F, function()
@@ -75,6 +83,18 @@ end
 unlockEverything(Workspace)
 end)
 
+Section4:NewButton("Dev Explorer V4", "Ve toda, la configuracion del juego, exepto scripts", function()
+	loadstring(game:HttpGet('https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4'))()
+end)
+
+Section4:NewButton("Dev Explorer V2", "Ve toda, la configuracion del juego, exepto scripts", function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex Explorer V2.txt"))()
+end)
+
+Section4:NewButton("Infinite Yield", "Uno de los mejores scripts de ADMIN FE", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
 Section5:NewButton("Tp Green Light Reed Light", "Te hace tp hasta el final del juego", function()
    	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.2247314, 5.33794641, -633.497681, 0.148700446, 1.02263208e-07, -0.988882303, 3.93857498e-08, 1, 1.09335446e-07, 0.988882303, -5.52060975e-08, 0.148700446)
 end)
@@ -89,6 +109,74 @@ end)
 
 Section6:NewButton("DomainX", "Ejecuta otra UI muy potente", function()
    	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Urbanstorms/DomainX/main/Squid%20Game.lua'),true))()
+end)
+
+Section7:NewButton("Top", "Te lleva hacia la mesa", function()
+   	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30.4169407, 6.5388608, -211.934357, 0.792050958, 1.20027615e-08, -0.610454977, -3.11418162e-08, 1, -2.07437783e-08, 0.610454977, 3.54408058e-08, 0.792050958)
+end)
+
+Section7:NewButton("Arcade", "Te lleva hacia la maquina de juegos", function()
+   	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-50.0616913, 2.99999928, -287.270416, 0.999825299, -1.24524768e-09, -0.0186900683, 1.22078647e-09, 1, -1.32018974e-09, 0.0186900683, 1.2971425e-09, 0.999825299)
+end)
+
+Section8:NewToggle("Matar a todos(Con cuchillo)(modo original)", "Esto no garantiza tu victoria, pero das todas", function(state)
+    if state then
+    debounce2 = true
+       	while debounce2 do
+       	wait()
+       	print("Yeah")
+    for i,v in pairs(game.Players:GetPlayers()) do
+        if v.Name ~= game.Players.LocalPlayer.Name then
+            if game.Workspace:FindFirstChild(v.Name) then
+                if game.Workspace[v.Name].Humanoid.Sit ~= true then
+                    if game.Workspace[v.Name]:FindFirstChild("Blade") then
+                        game:GetService("ReplicatedStorage").RemoteEvent:FireServer(37, CFrame.new(Vector3.new(0, 0, 0), Vector3.new(0, 0, 0)), Vector3.new(v.Character.HumanoidRootPart.CFrame.x, 4, v.Character.HumanoidRootPart.CFrame.z), Vector3.new(0, 0, 0))
+                        wait(.1)
+                        game:GetService("ReplicatedStorage").RemoteEvent:FireServer(43, v.Character.HumanoidRootPart, v, "IIlIla", true)
+                    else
+                        if v.Backpack:FindFirstChild("Blade") then
+                            game:GetService("ReplicatedStorage").RemoteEvent:FireServer(37, CFrame.new(Vector3.new(0, 0, 0), Vector3.new(0, 0, 0)), Vector3.new(v.Character.HumanoidRootPart.CFrame.x, 4, v.Character.HumanoidRootPart.CFrame.z), Vector3.new(0, 0, 0))
+                            wait(.1)
+                            game:GetService("ReplicatedStorage").RemoteEvent:FireServer(43, v.Character.HumanoidRootPart, v, "IIlIla", true)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+    else
+        debounce2 = false
+    end
+end)
+
+Section8:NewToggle("Luz siempre encendida", "", function(state)
+    if state then
+    debounce = true
+        while debounce do
+		wait(0.01)
+		game.Workspace.light.PointLight.Enabled = true
+end
+    else
+        debounce = false
+    end
+end)
+
+
+Section8:NewToggle("Full Iluminacion (Ver todo)", "Este te dejara ver todo alrededor", function(state)
+    if state then
+    debounce3 = true
+    while debounce3 do
+    wait(0.1)
+		game.Workspace.light.PointLight.Range = 100
+		end
+    else
+    	debounce3 = false
+    	wait(0.1)
+        game.Workspace.light.PointLight.Range = 15
+        
+    end
 end)
 
 Section3:NewLabel("Hecho por ObamaRCX")
