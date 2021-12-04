@@ -7,6 +7,7 @@ local Window = Library.CreateLib("GameHub RCX", "Ocean")
 local GameHub = Window:NewTab("Inicio")
 local SquidGame = Window:NewTab("Squid Game")
 local BP = Window:NewTab("Breaking Point")
+local TOH = Window:NewTab("Tower Of Hell")
 local Configuracion = Window:NewTab("Configuracion")
 
 --Sections
@@ -19,6 +20,7 @@ local Section5 = SquidGame:NewSection("Teleports")
 local Section6 = SquidGame:NewSection("Squid Game UI")
 local Section7 = BP:NewSection("Teleports")
 local Section8 = BP:NewSection("Misc")
+local Section9 = TOH:NewSection("Teleports")
 
 --Buttons ETC...
 
@@ -119,6 +121,18 @@ Section7:NewButton("Arcade", "Te lleva hacia la maquina de juegos", function()
    	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-50.0616913, 2.99999928, -287.270416, 0.999825299, -1.24524768e-09, -0.0186900683, 1.22078647e-09, 1, -1.32018974e-09, 0.0186900683, 1.2971425e-09, 0.999825299)
 end)
 
+Section8:NewButton("Mata a todos con la pistola", "Haz click para ejecutar", function()
+   	while wait() do
+	game:GetService("ReplicatedStorage").RemoteEvent:FireServer(16, "public")
+	wait()
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Name ~= game.Players.LocalPlayer.Name then
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer(30, v)
+		end
+	end
+end
+end)
+
 Section8:NewToggle("Matar a todos(Con cuchillo)(modo original)", "Esto no garantiza tu victoria, pero das todas", function(state)
     if state then
     debounce2 = true
@@ -177,6 +191,51 @@ Section8:NewToggle("Full Iluminacion (Ver todo)", "Este te dejara ver todo alred
         game.Workspace.light.PointLight.Range = 15
         
     end
+end)
+
+Section8:NewLabel("Otra UI")
+
+Section8:NewButton("Kill aura, Always Hit", "Haz click para ejecutar", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/RcOx1234/Bp/main/Bp'))()
+end)
+
+Section9:NewButton("Fin", "Te hace tp al final de la torre", function()
+	local brick = game.Workspace.tower.sections.finish.exit.ParticleBrick
+   game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(brick.Position)
+end)
+
+Section9:NewLabel("Misc")
+
+Section9:NewButton("Te hace inmune a las kill parts", "No podras morir por kill parts", function()
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+ 
+
+local function Invincibility()
+
+    if LocalPlayer.Character then
+
+        for i, v in pairs(LocalPlayer.Character:GetChildren()) do
+
+            if v.Name == "hitbox" then
+
+                v:Destroy()
+
+            end
+
+        end
+
+    end
+
+end
+
+ 
+
+while wait(0.5) do
+
+    Invincibility(LocalPlayer)
+
+end
 end)
 
 Section3:NewLabel("Hecho por ObamaRCX")
