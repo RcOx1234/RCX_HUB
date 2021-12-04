@@ -54,6 +54,11 @@ Section1:NewButton("Anime Fighters", "Presiona el boton para ejecutar", function
 loadstring(script)()
 end)
 
+
+Section1:NewButton("Arsenal", "Ejecuta el mejor script de Arsenal", function()
+   	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+
 Section3:NewKeybind("Letra Para mostrar el UI", "Presiona la letra seleccionada para Mostrar/Ocultar", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
@@ -95,6 +100,10 @@ end)
 
 Section4:NewButton("Infinite Yield", "Uno de los mejores scripts de ADMIN FE", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section4:NewButton("HitBox Extender", "Aumenta la Hitbox de todos a tu gusto.", function()
+	loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
 end)
 
 Section5:NewButton("Tp Green Light Reed Light", "Te hace tp hasta el final del juego", function()
@@ -237,6 +246,7 @@ while wait(0.5) do
 
 end
 end)
+
 
 Section3:NewLabel("Hecho por ObamaRCX")
 
