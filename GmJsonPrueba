@@ -1,0 +1,28 @@
+{
+"lip": 123,
+"person": [{
+        "phone": 864556,
+        "name": "John D",
+        "address": "N.Y",
+        "email": "test@test.com"
+    },
+    {
+        "phone": 19845,
+        "name": "Mary S",
+        "address": "N.Y",
+        "email": "testmary@test.com"
+    },
+    {
+        "phone": 34936,
+        "name": "Alex N",
+        "address": "Santiago",
+        "email": "alex@test.com"
+    },
+    {
+        "phone": 097478,
+        "name": "Bill McK",
+        "address": "London",
+        "email": "test@example.com"
+        }]
+    }
+]}
