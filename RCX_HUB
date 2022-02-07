@@ -9,6 +9,7 @@ local SquidGame = Window:NewTab("Squid Game")
 local BP = Window:NewTab("Breaking Point")
 local TOH = Window:NewTab("Tower Of Hell")
 local Configuracion = Window:NewTab("Configuracion")
+local PrisionLife = Window:NewTab("PrisionLife")
 
 --Sections
 
@@ -21,6 +22,7 @@ local Section6 = SquidGame:NewSection("Squid Game UI")
 local Section7 = BP:NewSection("Teleports")
 local Section8 = BP:NewSection("Misc")
 local Section9 = TOH:NewSection("Teleports")
+local Section10 = PrisionLife:NewSection("Funciones")
 
 --Buttons ETC...
 
@@ -247,7 +249,10 @@ while wait(0.5) do
 end
 end)
 
+Section10:NewButton("DisableBlind", "Hace que desaparezca el blind de la pantalla", function()
+   	game.Players.LocalPlayer.PlayerGui.Home.fadeFrame:Destroy()
+end)
+
 
 Section3:NewLabel("Hecho por ObamaRCX")
-
 
