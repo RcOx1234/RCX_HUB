@@ -1,6 +1,6 @@
 {
   "scripts": [
-    { "title": "RCX HUB", "description": "El mejor hub que hay en RCX xd", "author": "RCOX", "imageURL": "https://media.discordapp.net/attachments/872862464142868530/888611712838799440/Screenshot_20210918-075526_Edge.jpg", "scriptURLRaw": "https://cdn.wearedevs.net/scripts/Dex%20Explorer%20V2.txt" },
+    { "title": "RCX HUB", "description": "El mejor hub que hay en RCX xd", "author": "RCOX", "imageURL": "https://media.discordapp.net/attachments/872862464142868530/888611712838799440/Screenshot_20210918-075526_Edge.jpg", "scriptURLRaw": "https://cdn.wearedevs.net/scripts/Dex%20Explorer%20V2.txt" }
   ],
   "WhiteList": "true"
 }
