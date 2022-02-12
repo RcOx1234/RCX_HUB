@@ -7,7 +7,7 @@
    { "title": "Doomspire BrickBattle", "description": "El Mejor script De Doomspire Brickbattle", "author": "Alguien", "imageURL": "https://pm1.narvii.com/7069/de5a8e1ac14b953b35f9224199e82e4f9686f870r1-768-432v2_hq.jpg", "scriptURLRaw": "https://pastebin.com/raw/WyqZ5CXE" },
    { "title": "MeepCity", "description": "Un script de meepcity", "author": "Desconocido", "imageURL": "https://static.wikia.nocookie.net/roblox/images/e/e2/MeepCity.jpg/revision/latest?cb=20200710172721&path-prefix=es", "scriptURLRaw": "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub" }, 
    { "title": "Kat", "description": "Un script de kat xd", "author": "Desconocido", "imageURL": "https://matshortener.xyz/wp-content/uploads/2020/10/46006afeefa513935426b8b069fe0433.jpg", "scriptURLRaw": "https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui" }, 
-
+   { "title": "Arsenal", "description": "Silent Aim, ESP, Etc.", "author": "Desconocido", "imageURL": "https://static.wikia.nocookie.net/roblox/images/7/7e/Arsenal.jpeg/revision/latest?cb=20191027051624&path-prefix=es", "scriptURLRaw": "https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt" }, 
   ],
   "WhiteList": "true"
 }
