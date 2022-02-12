@@ -1,6 +1,10 @@
 {
   "scripts": [
-    { "title": "RCX HUB", "description": "El mejor hub que hay en RCX xd", "author": "RCOX", "imageURL": "https://media.discordapp.net/attachments/872862464142868530/888611712838799440/Screenshot_20210918-075526_Edge.jpg", "scriptURLRaw": "https://cdn.wearedevs.net/scripts/Dex%20Explorer%20V2.txt" }
+  
+  { "title": "RCX HUB", "description": "El mejor hub que hay en RCX xd", "author": "RCOX", "imageURL": "https://media.discordapp.net/attachments/872862464142868530/888611712838799440/Screenshot_20210918-075526_Edge.jpg", "scriptURLRaw": "https://raw.githubusercontent.com/RcOx1234/RCX_HUB/main/RCX_HUB" },
+   { "title": "Prision Life", "description": "Un script de admin para prision Life", "author": "Desconocido", "imageURL": "https://static.wikia.nocookie.net/roblox/images/4/41/Prisionlife.jpeg/revision/latest?cb=20191008015240&path-prefix=es", "scriptURLRaw": "https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife" },
+  
+  
   ],
   "WhiteList": "true"
 }
