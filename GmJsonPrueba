@@ -1,10 +1,13 @@
 {
   "scripts": [
-  
-  { "title": "RCX HUB", "description": "El mejor hub que hay en RCX xd", "author": "RCOX", "imageURL": "https://media.discordapp.net/attachments/872862464142868530/888611712838799440/Screenshot_20210918-075526_Edge.jpg", "scriptURLRaw": "https://raw.githubusercontent.com/RcOx1234/RCX_HUB/main/RCX_HUB" },
+    
+   { "title": "RCX HUB", "description": "El mejor hub que hay en RCX xd", "author": "RCOX", "imageURL": "https://media.discordapp.net/attachments/872862464142868530/888611712838799440/Screenshot_20210918-075526_Edge.jpg", "scriptURLRaw": "https://raw.githubusercontent.com/RcOx1234/RCX_HUB/main/RCX_HUB" },
    { "title": "Prision Life", "description": "Un script de admin para prision Life", "author": "Desconocido", "imageURL": "https://static.wikia.nocookie.net/roblox/images/4/41/Prisionlife.jpeg/revision/latest?cb=20191008015240&path-prefix=es", "scriptURLRaw": "https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife" },
-  
-  
+   { "title": "Piggy", "description": "El mejor script de piggy xd", "author": "Alguien", "imageURL": "https://static.wikia.nocookie.net/roblox/images/7/70/PiggyThumbNew.png/revision/latest?cb=20210426230008&path-prefix=es", "scriptURLRaw": "https://pastebin.com/raw/51Ur1app" },
+   { "title": "Doomspire BrickBattle", "description": "El Mejor script De Doomspire Brickbattle", "author": "Alguien", "imageURL": "https://pm1.narvii.com/7069/de5a8e1ac14b953b35f9224199e82e4f9686f870r1-768-432v2_hq.jpg", "scriptURLRaw": "https://pastebin.com/raw/WyqZ5CXE" },
+   { "title": "MeepCity", "description": "Un script de meepcity", "author": "Desconocido", "imageURL": "https://static.wikia.nocookie.net/roblox/images/e/e2/MeepCity.jpg/revision/latest?cb=20200710172721&path-prefix=es", "scriptURLRaw": "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub" }, 
+   { "title": "Kat", "description": "Un script de kat xd", "author": "Desconocido", "imageURL": "https://matshortener.xyz/wp-content/uploads/2020/10/46006afeefa513935426b8b069fe0433.jpg", "scriptURLRaw": "https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui" }, 
+
   ],
   "WhiteList": "true"
 }
