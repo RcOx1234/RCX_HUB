@@ -23,8 +23,8 @@
    { "title": "slayer unleashed", "description": "PRO XD", "author": "Desconocido", "imageURL": "https://tr.rbxcdn.com/fdaa90f00c605dcb470c8b9629207f50/768/432/Image/Png", "scriptURLRaw": "https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/SlayersUnleashedAdmin"},
    { "title": "Ragdoll Engine", "description": "Fling Punch, Troll, fly y mucho mas", "author": "Regular Vynixius", "imageURL": "https://tr.rbxcdn.com/15c740590d4eed497fa229ca50cd75d6/768/432/Image/Png", "scriptURLRaw": "https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua"},
    { "title": "Infinite yield", "description": "El mejor script de admin gratuito", "author": "EdgelY", "imageURL": "https://repository-images.githubusercontent.com/230387740/f3658200-3abc-11ea-973a-b024e3a60673", "scriptURLRaw": "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"},
-   { "title": "Anti AFK", "description": "No importa si estas AFK", "author": "Zaptosis", "imageURL": "https://cdn.discordapp.com/attachments/924555894929391657/943655761127538698/XD3.jpg", "scriptURLRaw": "https://pastebin.com/raw/G8q5ZL4e"},
+   { "title": "Anti AFK", "description": "No importa si estas AFK, nunca te desconectara por inactividad", "author": "Zaptosis", "imageURL": "https://cdn.discordapp.com/attachments/924555894929391657/943655761127538698/XD3.jpg", "scriptURLRaw": "https://pastebin.com/raw/G8q5ZL4e"},
+   { "title": "Wizard Life", "description": "Auto Block, Inf Patronus, Teams y muchos mas aqui!", "author": "Zploit King", "imageURL": "https://tr.rbxcdn.com/cb2b7fba19034f6b0cbd729502328c22/768/432/Image/Png", "scriptURLRaw": "https://raw.githubusercontent.com/zploitment/Scripts/main/remk.txt"},
   ],
   "WhiteList": "true"
 }
-
