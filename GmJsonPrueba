@@ -1,6 +1,6 @@
 {
-  "scripts": [
-    
+  "scripts": 
+[
    { "title": "RCX HUB", "description": "El mejor hub que hay en RCX xd", "author": "RCOX", "imageURL": "https://cdn.discordapp.com/attachments/909118098131542047/943245061708210226/betahub.jpg", "scriptURLRaw": "https://raw.githubusercontent.com/RcOx1234/RCX_HUB/main/RCX_HUB" },
    { "title": "Prision Life", "description": "Prision Life admin, Prefix: . ; :", "author": "Desconocido", "imageURL": "https://static.wikia.nocookie.net/roblox/images/4/41/Prisionlife.jpeg/revision/latest?cb=20191008015240&path-prefix=es", "scriptURLRaw": "https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife" },
    { "title": "Breaking Point", "description": "Kill Aura, Always Hit Etc...", "author": "Desconocido", "imageURL": "https://static.wikia.nocookie.net/roblox/images/4/43/Breaking_Point.jpg/revision/latest?cb=20200701020317&path-prefix=es", "scriptURLRaw": "https://gist.githubusercontent.com/RcOx1234/c98b2bb0e3d1907323923bb17e24a299/raw/d87fc184a007a6d419ed4ed8cae95972fc5dd146/RcOx_" },
@@ -25,6 +25,6 @@
    { "title": "Infinite yield", "description": "El mejor script de admin gratuito", "author": "EdgelY", "imageURL": "https://repository-images.githubusercontent.com/230387740/f3658200-3abc-11ea-973a-b024e3a60673", "scriptURLRaw": "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"},
    { "title": "Anti AFK", "description": "No importa si estas AFK, nunca te desconectara por inactividad", "author": "Zaptosis", "imageURL": "https://cdn.discordapp.com/attachments/924555894929391657/943655761127538698/XD3.jpg", "scriptURLRaw": "https://pastebin.com/raw/G8q5ZL4e"},
    { "title": "Wizard Life", "description": "Auto Block, Inf Patronus, Teams y muchos mas aqui!", "author": "Zploit King", "imageURL": "https://tr.rbxcdn.com/cb2b7fba19034f6b0cbd729502328c22/768/432/Image/Png", "scriptURLRaw": "https://raw.githubusercontent.com/zploitment/Scripts/main/remk.txt"},
+   { "title": "Blox Fruits", "description": "Tp, Auto Farm, Stats, y muchisimo mas aqui xd", "author": "naypramx", "imageURL": "https://tr.rbxcdn.com/11ccdb90593fba220664c3776ab8be3a/768/432/Image/Png", "scriptURLRaw": "https://pastebin.com/raw/PRx5yxY7"},
   ],
-  "WhiteList": "true"
 }
