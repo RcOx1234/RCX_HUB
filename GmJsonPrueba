@@ -31,5 +31,6 @@
    { "title": "Livetopia", "description": "Admins Commands, Kill others, Spawn Cars, Kick Others y mucho mas.", "author": "TurkOyuncu99", "imageURL": "https://tr.rbxcdn.com/01cb4ca8ed5061767e3fd3628dc96709/768/432/Image/Png", "scriptURLRaw": "https://pastebin.com/raw/d1g9NxYn"},
    { "title": "Lucky Blocks", "description": "Con este script, puedes Obtener cada lucky bloc del juego, Sin tener que esperar nada!, desde el LuckyBlock normal, Hasta el Galaxy", "author": "Desconocido", "imageURL": "https://tr.rbxcdn.com/3346215e96e7b3bf86691c9b8bc8bb51/768/432/Image/Png", "scriptURLRaw": "https://pastebin.com/raw/09NZMs4E"},
    { "title": "Solaris Hub", "description": "Este Script, Sirve Con juegos como, Shindo Life, Arsenal, Bad Business, Big Paint Ball, Counter Blox, Y muchisimos mas juegos aqui en Solaris Hub", "author": "Solaris", "imageURL": "https://i.ytimg.com/vi/U8wfN968chg/mqdefault.jpg", "scriptURLRaw": "https://solarishub.dev/script.lua"},
+   { "title": "Tower Of Hell", "description": "No Kill Parts Damage, Tp End, Speed Coil, Gravity Coil, y mucho mas", "author": "iiProductionz", "imageURL": "https://tr.rbxcdn.com/b9ca4694bc374b310307f3e84c9e5b58/768/432/Image/Png", "scriptURLRaw": "https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"},
   ],
 }
