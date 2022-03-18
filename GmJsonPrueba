@@ -34,5 +34,7 @@
    { "title": "Tower Of Hell", "description": "No Kill Parts Damage, Tp End, Speed Coil, Gravity Coil, y mucho mas", "author": "iiProductionz", "imageURL": "https://tr.rbxcdn.com/b9ca4694bc374b310307f3e84c9e5b58/768/432/Image/Png", "scriptURLRaw": "https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"},
    { "title": "Weaponry", "description": "Esp, Silent Aim, Team Check y muchisimo mas  ", "author": "CriShoux", "imageURL": "https://tr.rbxcdn.com/bfef5e6f3d12d2c34d91e15b19c3ae92/768/432/Image/Png", "scriptURLRaw": "https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"},
    { "title": "Parkour", "description": "No fall damage, Speed Slide, Spawn TP y mucho mas ", "author": "LegoHacks", "imageURL": "https://tr.rbxcdn.com/0ac4da9268aab1893e029b0a0903a0fd/768/432/Image/Png", "scriptURLRaw": "https://raw.githubusercontent.com/LegoHacks/Parkour/main/Main.lua"},
+   { "title": "Walk On Walls", "description": "Con este script, podras caminar sobre las paredes, y hasta en el techo, muy buen script para trollear", "author": "Roblox Hacker Man", "imageURL": "https://cheaterboss.com/wp-content/uploads/2022/03/71gNJgfnKNk-SD.jpg", "scriptURLRaw": "https://pastebin.com/raw/5T7KsEWy"},
+   { "title": "Blox Hunt", "description": "Tp, Set WS, Wiew Hiders, Kill All Hiders, y muchisimo mas en este script-", "author": "Vugam", "imageURL": "https://tr.rbxcdn.com/3cdc74ba7936bcd2bc7069c38353de3b/768/432/Image/Png", "scriptURLRaw": "https://pastebin.com/raw/26dcAFia"},
   ],
 }
